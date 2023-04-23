@@ -10,6 +10,8 @@ use crate::{
     error::ClientError,
 };
 
+pub mod internal;
+
 /// Represents the status of a Vault server.
 #[derive(Debug)]
 pub enum ServerStatus {
